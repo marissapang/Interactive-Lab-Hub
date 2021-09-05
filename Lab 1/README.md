@@ -69,7 +69,12 @@ _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening th
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 
 \*\***Describe your setting, players, activity and goals here.**\*\*
-\*\* The interaction for my device takes place in the home, usually in the home of someone who spends a significant amount of time studying or working from home. The interactive device is targeted at individuals who, perhaps during the pandemic, have fallen into a habit of sitting at their desk for extended periods without getting up for water, exercise, or breaks away from their screens -- actions important to both mental and physical health. \*\*
+
+**
+The interaction for my device takes place in the home, usually of someone who spends a significant amount of time studying or working from home. The interactive device is targeted at individuals who, perhaps during the pandemic, have fallen into a habit of sitting at their desk for extended periods without getting up for water, exercise, or other breaks -- actions important to both mental and physical health. This interactive device will take the form of a light fixture that shines in various aesthetically pleasing colors as a gentle way of reminding an individual to drink water, move around, or perform other wellness breaks throughout the day. 
+
+The device is designed to cater to a single individual, or multiple people who have similar work habits and are willing to accomplish different wellness goals together. 
+**
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 
