@@ -80,22 +80,20 @@ The interactive device can be anything *except* a computer, a tablet computer or
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 
-\*\***Include a picture of your storyboard here**\*\*
-
 ![Lab1_Storyboard](https://github.com/marissapang/Interactive-Lab-Hub/blob/Fall2021/images/lab1_storyboard.jpg)
 
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 
-\*\***Summarize feedback you got here.**\*\*
+**My group found the non-intrusive, non-interrupting nature of the device to be creative and valuable. It was suggested that using only colors as a way of showing different reminders can become restrictive when a person has two wellness goals, or concurrent goals such to both drink water AND do 10 pushups every 30 minutes.**
 
 
 ## Part B. Act out the Interaction
 
 Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
 
-\*\***Are there things that seemed better on paper than acted out?**\*\*
+**When acting out the interaction, it felt good to see a light in a pretty color on my desk. One of my wellness goals is to drink water more often. However, I noticed that I did not always come back immediately to my desk after drinking water, and thus ended up not recording my water intake well whenever I was away from the desk (eg. when I was heading out for dinner, when I was cooking, or when I was on the couch).**
 
-\*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
+**When "snoozing" the light to indicate that I have drank water, I noticed that there was no positive reward after the fact. My light has simply gone from a nice-looking blue color back to a nice-looking pink color (my color of choice for when I have no wellness reminders). I think if there was a way to record how many wellness goals I had accomplished each day (perhaps through small icons on the larger device), I'd feel more excited about ticking off my wellness goals.** 
 
 
 ## Part C. Prototype the device
@@ -108,7 +106,10 @@ We invented this tool for this lab!
 
 If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
 
-\*\***Give us feedback on Tinkerbelle.**\*\*
+**For my device, I wanted to use the flickering of light (in addition to the color of light) to send different signals. It would be great if there is a way to add flashing effects to the tinkerbell interface)**
+
+**I am a big fan of how dragging my mouse over the color picker can change the color in a seamless fashion. It created a great user experience for me, where I felt I could use the tool in a freeing, whimsical fashion. I personally feel that the experience would be even better if instead of a gradient for each color, we could get to all colors/hues by dragging our mouse through an extended version of a color picker that has all colors and hues. Perhaps something that looks like an extension of the color-picker below, where maybe as one moves further towards the edge the tones of each hue would gradually darken. However, this interface would not work well on mobile devices with smaller screens.**
+![Lab1_ColorPicker](https://github.com/marissapang/Interactive-Lab-Hub/blob/Fall2021/images/lab1_colorPicker.png)
 
 
 ## Part D. Wizard the device
