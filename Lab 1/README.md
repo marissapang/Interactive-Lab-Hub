@@ -136,12 +136,13 @@ Think about the setting of the device: is the environment a place where the devi
 \*\***Include sketches of what your device might look like here.**\*\*
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
+**The three key design features I wanted the device to have are 1) visual appeal, 2) satisfying sensation when pressing the "complete task" button, and 3) durability. The idea of immediate, positive re-enforcement is frequently written about in literature discussing the formation of good habits. I hope through an aesthetically pleasing user interface, I could form a positive association between the user and their wellness habits. I also hope that the satisfying button press upon the completion of a wellness goal could serve as a small but immediate positive re-enforcement mechanism. I also sought to design a device that is durable and is resistant to falls and moisture. Since the user is meant to frequently physically interact with the device upon completion of different wellness goals, it is likely for the device to also be knocked onto the ground, or be suceptible to drink spillage. **
 
 
 ## Part F. Record
 
 **Video of my prototyped interaction**
-![Lab1_F](https://github.com/marissapang/Interactive-Lab-Hub/blob/Fall2021/images/lab1_F.MOV)
+![Lab1_F](https://github.com/marissapang/Interactive-Lab-Hub/blob/Fall2021/images/lab1_F.mov)
 
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design.
 **Fitness gadgets such as the Oura ring and Apple watch now remind users to drink water and move around. The light-based wellness reminder is inspired by these functionalities. The idea of using the color/flicker-patterns of an aesthetically pleasing light as a reminder is inspired by the programmable, color-changing LED candle lights often seen in restaurants. My brother Steven Pang helped me film the prototyped interactions**
