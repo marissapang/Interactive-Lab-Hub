@@ -109,17 +109,22 @@ If you run into technical issues with this tool, you can also use a light switch
 **For my device, I wanted to use the flickering of light (in addition to the color of light) to send different signals. It would be great if there is a way to add flashing effects to the tinkerbell interface)**
 
 **I am a big fan of how dragging my mouse over the color picker can change the color in a seamless fashion. It created a great user experience for me, where I felt I could use the tool in a freeing, whimsical fashion. I personally feel that the experience would be even better if instead of a gradient for each color, we could get to all colors/hues by dragging our mouse through an extended version of a color picker that has all colors and hues. Perhaps something that looks like an extension of the color-picker below, where maybe as one moves further towards the edge the tones of each hue would gradually darken. However, this interface would not work well on mobile devices with smaller screens.**
+
 ![Lab1_ColorPicker](https://github.com/marissapang/Interactive-Lab-Hub/blob/Fall2021/images/lab1_colorPicker.png)
 
 
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
-\*\***Include your first attempts at recording the set-up video here.**\*\*
+**When trying to setup the device, we started with iPhone screen with the Tinkerbelle tool displayed, and someone changing the color of the screen using a laptop in the background**
 
-Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
+![Lab1_D1](https://github.com/marissapang/Interactive-Lab-Hub/blob/Fall2021/images/lab1_D1.MOV)
 
-\*\***Show the follow-up work here.**\*\*
+Now, change the goal within the same setting, and update the interaction with the paper prototype. 
+
+**In a situation where the user perhaps have a larger desk, or want the light reminders to be visible from different parts of the room, we tried to create a setup where the device has a bigger screen, using an iPad.
+
+![Lab1_D2](https://github.com/marissapang/Interactive-Lab-Hub/blob/Fall2021/images/lab1_D2.MOV)
 
 
 ## Part E. Costume the device
