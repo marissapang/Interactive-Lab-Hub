@@ -140,10 +140,11 @@ Think about the setting of the device: is the environment a place where the devi
 
 ## Part F. Record
 
-\*\***Take a video of your prototyped interaction.**\*\*
+**Video of my prototyped interaction**
+![Lab1_F](https://github.com/marissapang/Interactive-Lab-Hub/blob/Fall2021/images/lab1_F.MOV)
 
-\*\***Please indicate anyone you collaborated with on this Lab.**\*\*
-Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design.
+**Fitness gadgets such as the Oura ring and Apple watch now remind users to drink water and move around. The light-based wellness reminder is inspired by these functionalities. The idea of using the color/flicker-patterns of an aesthetically pleasing light as a reminder is inspired by the programmable, color-changing LED candle lights often seen in restaurants. My brother Steven Pang helped me film the prototyped interactions**
 
 
 
