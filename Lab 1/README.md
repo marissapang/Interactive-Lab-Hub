@@ -68,13 +68,15 @@ _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening th
 
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 
-\*\***Describe your setting, players, activity and goals here.**\*\*
+**The interaction for my device takes place in the home, usually of someone who spends a significant amount of time studying or working from home. The interactive device is targeted at individuals who, perhaps during the pandemic, have fallen into a habit of sitting at their desk for extended periods without getting up for water, exercise, or other breaks -- actions important to both mental and physical health.**
 
-**
-The interaction for my device takes place in the home, usually of someone who spends a significant amount of time studying or working from home. The interactive device is targeted at individuals who, perhaps during the pandemic, have fallen into a habit of sitting at their desk for extended periods without getting up for water, exercise, or other breaks -- actions important to both mental and physical health. This interactive device will take the form of a light fixture that shines in various aesthetically pleasing colors as a gentle way of reminding an individual to drink water, move around, or perform other wellness breaks throughout the day. 
+**This interactive device will take the form of a light fixture that works similarly to an alarm clock. The device will light up in various aesthetically pleasing colors that sometimes flicker in patterns, serving as a gentle way of reminding an individual to drink water, move around, or perform other wellness breaks throughout the day. The user can press a snooze-like button on top of the device (which would change the color and/or flicker pattern of the device)to indicate that they have completed a certain task.**
 
-The device is designed to cater to a single individual, or multiple people who have similar work habits and are willing to accomplish different wellness goals together. 
-**
+**The device is designed to cater to the wellness needs of a single user. It could also be used by multiple people who spend time in the same room and hope to accomplish the same wellness goals together, perhaps as a means of mutual enforcement or team-building.**
+
+**This device seeks to help its user(s) accomplish their wellness goals by sending positive (in this case, cute-looking) reminder signals. Instead of interacting with typical mobile alarms/reminders that can be jarring or cause an interruption to one's work flow, users would be reminded of their wellness goals by more a gentle, aesthetically-pleasing light. The goal of the users of this device is, in this case, predominantly to use this device as an aid to live in a way that is more in accordance with their wellness values.**
+
+
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 
