@@ -133,7 +133,7 @@ Only now should you start worrying about what the device should look like. Devel
 
 Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
-\*\***Include sketches of what your device might look like here.**\*\*
+![Lab1_Device](https://github.com/marissapang/Interactive-Lab-Hub/blob/Fall2021/images/lab1_device.jpg)
 
 **The three key design features I wanted the device to have are 1) visual appeal, 2) satisfying sensation when pressing the "complete task" button, and 3) durability. The idea of immediate, positive re-enforcement is frequently written about in literature discussing the formation of good habits. I hope through an aesthetically pleasing user interface, I could form a positive association between the user and their wellness habits. I also hope that the satisfying button press upon the completion of a wellness goal could serve as a small but immediate positive re-enforcement mechanism. I also sought to design a device that is durable and resistant to falls and moisture. Since the user would physically interact with the device frequently (upon the completion of different wellness goals), it is likely for the device to also be knocked off a surface or be suceptible to drink spillage.**
 
