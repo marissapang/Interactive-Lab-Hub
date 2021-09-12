@@ -219,6 +219,7 @@ cute, small
 add in vdieo
 
 
-
-
-\*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
+## * For Graders and Peer Reviewers * Feedback I would like to get from you ##
+Here are some areas I am hoping to get your input on (if you have time), thank you in advacne!
+- Completeness of thinking: are there important aspects of user interaction that I am failing to consider? 
+- 
