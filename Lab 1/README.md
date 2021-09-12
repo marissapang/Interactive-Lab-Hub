@@ -190,9 +190,9 @@ With these takeaways, I refined the goal of my device in a way that I feel like
 **Refined Goal:** Cute, animated digital fish bowl that gamifies work from home wellness goals. I hope that with a "fish bowl" (as opposed to the previous "alarm") categorization, I can bring my product closer to what I liked about devices described takeaway #2 above. 
 
 ### Refinement of setting: 
-Same setting as previous. A additional specifics I would add is - that this is designed as a cute fixture, sort of like a little plant or teddy bear -- or actual fish bowl -- someone would put on their desk. 
+Same setting as pt 1 (desk of a single user who spends a lot of time sitting in the same spot). In the refinement, this device is more specifically designed as a cute decorative item, sort of like a little plant or teddy bear -- or actual fish bowl -- someone would put on their desk. 
 
-\[insert photo of device on table\]
+![lab1_pt2_setting](https://github.com/marissapang/Interactive-Lab-Hub/blob/Fall2021/images/lab1_pt2_setting.jpg)
 
 
 ### Refinement of activity: 
@@ -200,18 +200,18 @@ In the second iteration, I have decided limit the device to only tracking 2 well
 
 I decided to take this idea of animated light signals one step further, and add gamification to the process. When the user drinks a lot of water, the fish could be extra happy. Or, when the user has a great streak for break taking, a rare fish could appear. On the flip side, if there is too little water or exercise, the fish would grow inanimate and eventually disappear. 
 
-\[show some graphics on how the device could look\]
+![lab1_pt2_animations](https://github.com/marissapang/Interactive-Lab-Hub/blob/Fall2021/images/lab1_pt2_animation.jpg)
 
 ### Refinement of device design
+In light of the 9/9 lab discussions, the overall device specifications have not changed too much from part 1. It is still important for the device to be cute, small enough to fit well on even a small desk, fall and water resistant. 
 
-low cost
-cute, small 
+The only aspect of the design of the device that notably changed in pt 2 is the shape of the device. Previously, the device was rectangular, and designed to be a light-based alarm clock. In this iteration, the device is not positioned as a decorative digital fishbowl. As such, it is designed to be in a cute round shape that is the same as an actual fish bowl. 
 
 
 ### Storyboard of user interaction with device with the refined goals and settings in mind
-\[Add in storyboard\]
+Key change is that, instead of getting signals from colors (like described in pt 1), the user is proactive changing the way the device looks. The user can only do one of two actions - tap once to indicate they have drank water, or tap twice to indicate that they took a break. 
 
-
+![lab1_pt2_storyboard](https://github.com/marissapang/Interactive-Lab-Hub/blob/Fall2021/images/lab1_pt2_storyboard.jpg)
 
 
 
