@@ -218,8 +218,3 @@ cute, small
 ## Device in Action
 add in vdieo
 
-
-## * For Graders and Peer Reviewers * Feedback I would like to get from you ##
-Here are some areas I am hoping to get your input on (if you have time), thank you in advacne!
-- Completeness of thinking: are there important aspects of user interaction that I am failing to consider? 
-- 
