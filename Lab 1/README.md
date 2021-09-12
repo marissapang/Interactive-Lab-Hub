@@ -167,4 +167,53 @@ Do last week’s assignment again, but this time:
 2) You can use any modality (e.g., vibration, sound) to prototype the behaviors! Again, be creative!
 3) We will be grading with an emphasis on creativity. 
 
+## Refinements to goals & interctions made during the second iteration
+
+### Refinement of goals:
+In Part 1, the goal was for my device to act as an light-based alarm that flashes and changes color, reminding people to accomplish numerous wellness goals in an non-intrusive fashion. 
+
+Going into the 9/9 lab, I hoped to get feedback from my lab-table on the following: 
+1. Managing complexity - how can the device siganl effectively when one has many different wellness goals?
+2. Adding incentive - is there a way for me to provide some sort of positive re-enforcmenet mechanism that can accrue over time? 
+
+
+During the 9/9 lab, the key feedback I received and points I took away from our discussion was: 
+* I could create more descriptive graphics than just colors and flashes (eg. animation of water for a reminder to drink water, etc)
+* Most 
+* There is something that relates to simplicity, coherency that matters in a product (I found myself intrigued by my teammates product that had a defined role/character, that can be easily personified or analogized to someting more story focused)
+
+The key things I felt from listening to the idea of my team mates were
+iii. It seems like a device can 
+iv. It would be cool to have an incenti
+
+pieces of feedback it was suggested that the graphics can be more descriptive than just color. Eg. 
+Previously, the goal was to remind people of an arbitrary amount of artificial goals. Because light small, and cute - simplificity is miportant
+I want to be more prescriptive here, and just say that what people should prioritize is water + breaks. 
+
+### Refinement of setting: 
+Only when the person is at the desk, but some sort of steak featurues
+
+### Refinement of activity: 
+Only two activites. Streaks. Simple taps
+
+### With these goals and settings in mind, this is the interaction
+Add in video
+
+
+## Refinement of device device
+
+### Refinement of graphics
+add in drawings of dvice
+
+### Refinement of device design
+low cost
+cute, small 
+
+
+## Device in Action
+add in vdieo
+
+
+
+
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
