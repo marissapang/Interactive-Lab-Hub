@@ -167,47 +167,52 @@ Do last week’s assignment again, but this time:
 2) You can use any modality (e.g., vibration, sound) to prototype the behaviors! Again, be creative!
 3) We will be grading with an emphasis on creativity. 
 
-## Refinements to goals & interctions made during the second iteration
+## Refinements to goals & interactions made during the second iteration
+
+### Key takeaways from the 9/9 Lab
+
+In Part 1, the goal was for my device to act as a light-based alarm that flashes and changes color, reminding people to accomplish numerous wellness goals in an non-intrusive fashion. 
+
+Going into the lab, I hoped to get feedback from my lab-table on the following: 
+* Managing complexity - how can the device siganl effectively when one has many different wellness goals?
+* Adding incentive - is there a way for me to provide some sort of positive re-enforcement mechanism that somehow accrues over time? 
+
+My key takeaways from the lab discussion were: 
+1. **\[Feedback\]** I could create more descriptive graphics than just colors and flashes (eg. animation of water for a reminder to drink water, etc)
+2. **\[Learnings from teammates' ideas\]** I found myself most attracted to my teammates' ideas that involve devices that I could somehow view as more "alive" than just a computer (e.g. a light-up pet that reminds you to do certain tasks, and a chair that physically pushes you out when you've sat on it for too long). I feel like when I can think of a device as having a personality, or as having a life of its own, I feel a lot more positive emotions towards it.
+3. **\[Feedback\]** It seems like most people's (in our small sample size) wellness goals can be grouped into drinking water and taking breaks (whether to look out the window, or to move around).
 
 ### Refinement of goals:
-In Part 1, the goal was for my device to act as an light-based alarm that flashes and changes color, reminding people to accomplish numerous wellness goals in an non-intrusive fashion. 
+With these takeaways, I refined the goal of my device in a way that I feel like 
 
-Going into the 9/9 lab, I hoped to get feedback from my lab-table on the following: 
-1. Managing complexity - how can the device siganl effectively when one has many different wellness goals?
-2. Adding incentive - is there a way for me to provide some sort of positive re-enforcmenet mechanism that can accrue over time? 
+**Before (Goal from Pt1):** Cute, light-based alarm that flashes and changes color, reminding people to accomplish numerous wellness goals in an non-intrusive fashion. 
 
-
-During the 9/9 lab, the key feedback I received and points I took away from our discussion was: 
-* I could create more descriptive graphics than just colors and flashes (eg. animation of water for a reminder to drink water, etc)
-* Most 
-* There is something that relates to simplicity, coherency that matters in a product (I found myself intrigued by my teammates product that had a defined role/character, that can be easily personified or analogized to someting more story focused)
-
-The key things I felt from listening to the idea of my team mates were
-iii. It seems like a device can 
-iv. It would be cool to have an incenti
-
-pieces of feedback it was suggested that the graphics can be more descriptive than just color. Eg. 
-Previously, the goal was to remind people of an arbitrary amount of artificial goals. Because light small, and cute - simplificity is miportant
-I want to be more prescriptive here, and just say that what people should prioritize is water + breaks. 
+**Refined Goal:** Cute, animated digital fish bowl that gamifies work from home wellness goals. I hope that with a "fish bowl" (as opposed to the previous "alarm") categorization, I can bring my product closer to what I liked about devices described takeaway #2 above. 
 
 ### Refinement of setting: 
-Only when the person is at the desk, but some sort of steak featurues
+Same setting as previous. A additional specifics I would add is - that this is designed as a cute fixture, sort of like a little plant or teddy bear -- or actual fish bowl -- someone would put on their desk. 
+
+\[insert photo of device on table\]
+
 
 ### Refinement of activity: 
-Only two activites. Streaks. Simple taps
+In the second iteration, I have decided limit the device to only tracking 2 wellness goals: water & breaks. Takeaway #3 above helped me feel more confident that this more prescriptive approach could work well. Inspired by feedback described in Takeaway #1 above, the device will display animated water (where water level corresponds to how much water a person drank) and fish (where the happiness and number of the fish depends on the breaks one take). 
 
-### With these goals and settings in mind, this is the interaction
-Add in video
+I decided to take this idea of animated light signals one step further, and add gamification to the process. When the user drinks a lot of water, the fish could be extra happy. Or, when the user has a great streak for break taking, a rare fish could appear. On the flip side, if there is too little water or exercise, the fish would grow inanimate and eventually disappear. 
 
-
-## Refinement of device device
-
-### Refinement of graphics
-add in drawings of dvice
+\[show some graphics on how the device could look\]
 
 ### Refinement of device design
+
 low cost
 cute, small 
+
+
+### Storyboard of user interaction with device with the refined goals and settings in mind
+\[Add in storyboard\]
+
+
+
 
 
 ## Device in Action
