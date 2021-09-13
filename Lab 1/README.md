@@ -158,7 +158,7 @@ This describes the second week's work for this lab activity.
 
 You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
 
-\*\***Summarize feedback from your partners here.**\*\*
+**I received a lot of positive feedback for the non-intrusive nature of the reminders of this device. The constructive feedback I received mostly relate to the size and complexity of the device - how a device can be successful and easy to use as a reminders tool while not being to large or having an interface that is not too cluttered.**
 
 ## Make it your own
 
@@ -216,5 +216,5 @@ Key change is that, instead of getting signals from colors (like described in pt
 
 
 ## Device in Action
-add in vdieo
+![lab1_pt2_video](https://github.com/marissapang/Interactive-Lab-Hub/blob/Fall2021/images/IDD%20Lab%201.mp4)
 
