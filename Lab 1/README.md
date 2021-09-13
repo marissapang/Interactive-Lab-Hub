@@ -187,7 +187,7 @@ With these takeaways, I refined the goal of my device in a way that I feel like
 
 **Before (Goal from Pt1):** Cute, light-based alarm that flashes and changes color, reminding people to accomplish numerous wellness goals in an non-intrusive fashion. 
 
-**Refined Goal:** Cute, animated digital fish bowl that gamifies work from home wellness goals. I hope that with a "fish bowl" (as opposed to the previous "alarm") categorization, I can bring my product closer to what I liked about devices described takeaway #2 above. 
+**Refined Goal:** Cute, animated digital fish bowl that gamifies work from home wellness goals. I hope that with a "fish bowl" (as opposed to the previous "alarm") categorization, I can bring my product closer to what I liked about devices described in takeaway #2 above. 
 
 ### Refinement of setting: 
 Same setting as pt 1 (desk of a single user who spends a lot of time sitting in the same spot). In the refinement, this device is more specifically designed as a cute decorative item, sort of like a little plant or teddy bear -- or actual fish bowl -- someone would put on their desk. 
