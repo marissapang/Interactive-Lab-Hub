@@ -193,7 +193,9 @@ After that, Git will ask you to login to your GitHub account to push the updates
 ![lab2_pt1_demo](https://github.com/marissapang/Interactive-Lab-Hub/blob/Fall2021/images/lab2_pt1_demo.mp4)
 
 ## Part G. 
-## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
+![lab pt1_G](https://github.com/marissapang/Interactive-Lab-Hub/blob/Fall2021/images/lab2_pt1_G.jpg)
+
+**For Part 2, I would like to have the %-based visualization of time interact more with the users experience of time. For example, I would like to consider a way for a user to track how long each day "feels" to them - perhaps, they could press a button every time they think "Man, I hope this day would be over". I could potentially visualize this with a chronological bar chart, where the height of the bar would track how long each day feels. This could be paired with an hourly visualization (right side of picture) where the user tracks their experience of time during each hour. 
 
 
 # Prep for Part 2
