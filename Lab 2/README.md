@@ -220,4 +220,23 @@ As always, make sure you document contributions and ideas from others explicitly
 
 You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
 
+**In the second iteration of my clock, I decided to create a timed device for breathing exercises. Instead of having the clock show the proportion of a day or a year that has passed, as I did in the Lab 2 Part 2, I have decided to use the built-in python clock's ability to calculate seconds to create a clock that offers guidance in breathing exercises.**
 
+**When the user holds down the attached LED button, the clock counts the seconds that the button has been pressed down, and walks the user through a 4-7-8 breathing technique. 4-7-8 breathing is a technique developed by Dr. Andrew Weil to help people gain control of their breath in order to relax or fall asleep. The exercise invovles breath cycles where the individual inhales for 4 seconds, holds breath for 7 seconds, and then slowly exhales for 8 seconds.** 
+
+**As shown in the video attached, the clock device will start counting in 4-second, 7-second, and 8-seconds intervals, with text prompts for the user to follow. If a user holds the button down until the completion a breathing session (for 19 seconds), then the clock increments their "# of Breathes" count on the top-right corner by 1. If the user holds the button down for less than a full cycle (i.e. only 15 seconds), the "# of Breathes" counter will not increment. Similarly, if a user holds the button down for a full 38 seconds or a little more at 45 seconds, their breath-count will increment by 2.**
+
+
+
+
+**Design choices:**
+
+The design choice for the user to have to hold down a button throughout the entire breathing exercise is deliberate. While it can be cumbersome and distracting to a user who is trying to focus on breath, the hypothesis is that this may deter users from getting distracted in the middle of a breathing cycle and checking their phone/computer.
+
+The design choice for the guidance of breathing exercise to be represented by a screen (as opposed to audio or phsyical signals) is due to convenience, because we currently have a screen attached to our Pi. See more on this in areas for improvements
+
+
+**Potential FUture Areas for Improvement:**
+In the context of our modern day needs for breathing exercises - the feeling of anxiety, stress, and being overwhlemed by excess information, I would want to explore ways for guiding people through breathing exercises without a screen. The less-intrusive audio guides that are mainstream these days are an improvement upon screens, but have their own issues. Namely, people's preferences for voices is highly subjective, and having a voice that one does not like guiding one through meditative exercises can strongly detract from the experience. 
+
+One form of guidance I would like to explore is physical signals. Perhaps, a device like a little box or plush animal that can sense when it is held and start a breathing cycle only when it is held with both hands. This could ensure that the user does not have hands on any other device and is fully present. The device could potentially use soft physical cues that mimic the ways a lungs expand or contract when one is inhaling and exhaling. 
