@@ -226,7 +226,7 @@ You are permitted (but not required) to work in groups and share a turn in; you 
 
 **As shown in the video attached, the clock device will start counting in 4-second, 7-second, and 8-seconds intervals, with text prompts for the user to follow. If a user holds the button down until the completion a breathing session (for 19 seconds), then the clock increments their "# of Breathes" count on the top-right corner by 1. If the user holds the button down for less than a full cycle (i.e. only 15 seconds), the "# of Breathes" counter will not increment. Similarly, if a user holds the button down for a full 38 seconds or a little more at 45 seconds, their breath-count will increment by 2.**
 
-![lab2demp](https://github.com/marissapang/Interactive-Lab-Hub/blob/Fall2021/images/lab2_pt2_demo.mp4)
+![lab2demo](https://github.com/marissapang/Interactive-Lab-Hub/blob/Fall2021/images/lab2_pt2_demo.mp4)
 
 
 **Design choices:**
