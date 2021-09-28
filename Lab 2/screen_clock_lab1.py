@@ -60,21 +60,16 @@ def read_register(dev, register, n_bytes=1):
         dev.write_then_readinto(reg, buf)
     return int.from_bytes(buf, 'little')
 
-# helper function for drawing circles
-def draw_countdown(total, current, y, w): 
-    for i in range(0, total, 1):
-        r = 10
-        padding = 25
-        spacing = (w - padding*2 - total*r*2)/(total-1)
-        x_i = padding + i*r*2 + (i)*spacing
-        if i <= current:
-            draw.regular_polygon((x_i, y, r), n_sides =5, fill=orange)
-        else: 
-            draw.regular_polygon((x_i, y, r), n_sides =5, fill=gray)
 # clear out settings
 write_register(device, 0x1A, 1)
 write_register(device, 0x1B, 0, 2)
 write_register(device, 0x19, 0)
+
+
+
+
+
+
 
 # Create blank image for drawing.
 # Make sure to create image with mode 'RGB' for full color.
@@ -89,6 +84,18 @@ draw = ImageDraw.Draw(image)
 # Draw a black filled box to clear the image.
 draw.rectangle((0, 0, width, height), outline=0, fill=(0, 0, 0))
 disp.image(image, rotation)
+# Draw some shapes.
+# First define some constants to allow easy resizing of shapes.
+padding = -2
+top = padding
+bottom = height - padding
+# Move left to right keeping track of the current x position for drawing shapes.
+x = 0
+
+# Alternatively load a TTF font.  Make sure the .ttf font file is in the
+# same directory as the python script!
+# Some other nice fonts to try: http://www.dafont.com/bitmap.php
+# font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 18)
 
 # Turn on the backlight
 backlight = digitalio.DigitalInOut(board.D22)
@@ -103,56 +110,51 @@ buttonB.switch_to_input()
 
 ##### LAB PART D & E - Styling Variables #####
 background_color = "#8ad7e3"
-title_font = ImageFont.truetype("/usr/share/fonts/truetype/piboto/PibotoCondensed-Bold.ttf", 30)
-title_coords = (15, 45)
-guidance_font = ImageFont.truetype("/usr/share/fonts/truetype/piboto/PibotoCondensed-Bold.ttf", 45)
-guidance_coords = (10, 10)
-counter_font = ImageFont.truetype("/usr/share/fonts/truetype/piboto/PibotoCondensed-Bold.ttf", 28)
-counter_coords = (15, 5)
-orange = "#ff9e61"
-gray = "#d9d9d9" 
+title_font = ImageFont.truetype("/usr/share/fonts/truetype/piboto/PibotoCondensed-Bold.ttf", 27)
+date_font = ImageFont.truetype("/usr/share/fonts/truetype/piboto/PibotoCondensed-Bold.ttf", 42)
+title_coords = (10, 10)
+bar_x = 10
+bar_y = 60
+bar_h = 35
+bar_w = width-20
+filled_color = "#ff9e61"
+empty_color = "#d9d9d9" 
 
 click_count = 0
-click_started = False
-
-num_breaths = 0
-
 while True:
     # Draw a black filled box to clear the image.
     draw.rectangle((0, 0, width, height), outline=0, fill=background_color)
-    btn_status = read_register(device, STATUS)
+   
+    ##### LAB PART E - A clock that shows the % of day & year that has passed #####
+    # Trying to go for a clock that's a little "self-help" a little "philosophical"
+    # by having short phrases at the top of each interface
     
-    # when button is pressed down...    
-    if (btn_status&IS_PRESSED) !=0:
-        if click_started == False: # we start a new cycle... 
-            click_started = True
-            click_count = 0
-        else: # or we continue a current cycle
+    # get current date time in tuple form
+    now_tuple = datetime.now().timetuple()
+    now = datetime.now()
+    if buttonA.value: # show % of day that has passed by default
+        # days interface
+        draw.text(title_coords, "Days pass slowly", font=title_font, fill="#FFFFFF")
+        hour = now_tuple[3]
+        day_pct = hour/24
+        draw.rectangle((bar_x, bar_y, bar_x + day_pct*bar_w,bar_y+bar_h), fill=filled_color)
+        draw.rectangle((bar_x + day_pct*bar_w, bar_y, bar_x + bar_w, bar_y+bar_h), fill=empty_color) 
+        btn_status = read_register(device, STATUS)
+        if (btn_status&IS_PRESSED) !=0:
             click_count += 1 
-    else: # if button is not pressed...
-        click_started = False # we reset
-        click_count = 0   
-    
-    # display different commands depending on whether and for how long the button is pressed 
-    display_text = "Time to breath?"
+            print(f"Count is: {click_count}")
  
-    if click_count == 0: 
-        draw.text(title_coords, "Time to breathe?", font=title_font, fill="#FFFFFF")
-        draw.text(counter_coords, str(num_breaths), font=counter_font, fill=orange)
-    elif click_count % 19 != 0 and click_count % 19 <5:
-        draw.text(guidance_coords, "Inhale", font=guidance_font, fill="#FFFFFF")
-        draw_countdown(4, click_count % 19, 100, width)
-    elif click_count % 19 != 0 and click_count % 19 <12:
-        draw.text(guidance_coords, "Hold", font=guidance_font, fill="#FFFFFF")
-        draw_countdown(7, (click_count-4) % 19, 100, width)
-    elif click_count % 19 != 0 and click_count % 19 <19:
-        draw.text(guidance_coords, "Exhale", font=guidance_font, fill="#FFFFFF")
-        draw_countdown(9, (click_count-11) % 19, 100, width)
-    elif click_count!= 0 and click_count % 19 == 0:
-        num_breaths += 1
-        draw.text(guidance_coords, "Exhale", font=guidance_font, fill="#FFFFFF")
-        draw_countdown(9, (click_count-11) % 19, 100, width)
-
-
+    elif buttonB.value: # shows % of year that has passed when top button pressed
+        # years interface
+        draw.text(title_coords, "Years fly by", font=title_font, fill="#FFFFFF")
+        day_num = now_tuple.tm_yday
+        year_pct = day_num/365
+        draw.rectangle((bar_x, bar_y, bar_x + year_pct*bar_w,bar_y+bar_h), fill=filled_color)
+        draw.rectangle((bar_x + year_pct*bar_w, bar_y, bar_x + bar_w, bar_y+bar_h), fill=empty_color)
+    else : # show bare bones clock form part D
+        ##### Lab PART D #####
+        draw.text(title_coords, "Is it time yet??", font=title_font, fill="#FFFFFF")
+        draw.text((bar_x, bar_y), now.strftime("%H:%M:%S"), font=date_font, fill=filled_color)
+    # Display image
     disp.image(image, rotation)
     time.sleep(1)
