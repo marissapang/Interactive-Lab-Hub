@@ -56,6 +56,8 @@ You can also play audio files directly with `aplay filename`. Try typing `aplay 
 \*\***Write your own shell file to use your favorite of these TTS engines to have your Pi greet you by name.**\*\*
 (This shell file should be saved to your own repo for this lab.)
 
+**please see file _greet_me.sh_ in my Lab 3 repo**
+
 Bonus: If this topic is very exciting to you, you can try out this new TTS system we recently learned about: https://github.com/rhasspy/larynx
 
 ### Speech to Text
@@ -68,6 +70,9 @@ One thing you might need to pay attention to is the audio input setting of Pi. S
 
 \*\***Write your own shell file that verbally asks for a numerical based input (such as a phone number, zipcode, number of pets, etc) and records the answer the respondent provides.**\*\*
 
+**please see file _ask_and_record.sh_ in my Lab 3 repo**
+
+ 
 Bonus Activity:
 
 If you are really excited about Speech to Text, you can try out [Mozilla DeepSpeech](https://github.com/mozilla/DeepSpeech) and [voice2json](http://voice2json.org/install.html)
