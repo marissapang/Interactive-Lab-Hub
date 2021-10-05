@@ -70,6 +70,8 @@ One thing you might need to pay attention to is the audio input setting of Pi. S
 
 \*\***Write your own shell file that verbally asks for a numerical based input (such as a phone number, zipcode, number of pets, etc) and records the answer the respondent provides.**\*\*
 
+**please see file _ask_and_record.sh_ in my Lab 3 repo**
+
  
 Bonus Activity:
 
